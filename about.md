@@ -4,7 +4,7 @@ title: About Me
 menu: true
 
 ---
-![My helpful screenshot]({{ nistara.github.io }}/_assets/images/Bio.png)
+![]({{ nistara.github.io }}/_assets/images/Bio.png)
 
 I am a PhD candidate in the graduate group of Epidemiology. I'm just starting on creating this site to keep track of things like R code snipptes, etc that help me with my PhD project (and beyond). My background is that of a Veterinarian, though I am keen on amalgamating my Veterinary and Epidemiology knowledge with programming...so please bear with me as I find my way in this world of github, jekyll, programming, and contributing positively to this planet! 
 

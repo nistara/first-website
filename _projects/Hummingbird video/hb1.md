@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "Hummingbird video"
-category: Hummingbird video
-menu: "Hummingbird video"
+title: "Hummingbird Video"
+category: Hummingbirds
+menu: "Hummingbirds"
 github:
 website:
 contact:
