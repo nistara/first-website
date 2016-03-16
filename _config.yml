@@ -2,17 +2,15 @@
 title: Nistara Randhawa # type your own lablog title here
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Veterinary science, programming, and the One Health Approach
 baseurl:  # the subpath of your site, e.g. /blog/
 url: "https://nistara.github.io" # the base hostname & protocol for your site
 include: [ _assets , _projects ]
 
-name : Nistara Randhawa
+name : 
 email :
 github_username: nistara
-twitter_username: nistara_r
+twitter_username: 
 website : nistara.github.io
 
 # Build settings
@@ -20,7 +18,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-noindex: true # if true, google will ignore your pages!
+noindex:  # if true, google will ignore your pages!
 
 defaults:   # overwrite with in YAML frontmatter, e.g. 'place: New York'
   -

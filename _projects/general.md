@@ -2,11 +2,11 @@
 layout: tasks
 title : "general tasks"
 
+
 ---
 
-
-# [ ] New features for Tasklists
-
-- [ ] set milestones
-- [ ] due dates
+- [ ] update notebook
+- [ ] add CV
+- [ ] start adding little R snippets that have helped me
+- [ ] articles of interest
 - [x] priority tags (!), (!!), (!!!)
