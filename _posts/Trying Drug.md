@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "Learning markdown"
 date: "2016-03-16"
 ---

@@ -6,8 +6,8 @@
 </description>
     <link>https://nistara.github.io/</link>
     <atom:link href="https://nistara.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Mar 2016 16:04:39 -0700</pubDate>
-    <lastBuildDate>Wed, 16 Mar 2016 16:04:39 -0700</lastBuildDate>
+    <pubDate>Wed, 16 Mar 2016 16:06:19 -0700</pubDate>
+    <lastBuildDate>Wed, 16 Mar 2016 16:06:19 -0700</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -24,137 +24,6 @@
         <category>_projects</category>
         
         <category>Hummingbird video</category>
-        
-      </item>
-    
-      <item>
-        <title>Learning markdown</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;“The sweetest R-help group this side of the Mississippi.”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Welcome to the Davis R Users’ Group (DRUG)!  We are a community of R users at UC Davis who support each other in using R for science. Our focus is providing a space for beginning and intermediate users to learn from each other.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;em&gt;Come to our weekly work sessions&lt;/em&gt;&lt;/strong&gt;: This is the core purpose of DRUG.  We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support in R, statistics, and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;&lt;em&gt;For Fall Quarter 2015, weekly work sessions will be be held Wednesdays 10AM-12PM in Wickson Hall Room 2120J&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;em&gt;Join the &lt;a href=&quot;https://groups.google.com/d/forum/davis-rug&quot;&gt;mailing list&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;: The mailing list is an online supplement to our in-person work sessions.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;em&gt;Use the resources below&lt;/em&gt;&lt;/strong&gt;: We’ve compiled a list of resources to help you get started using R and find answers to your questions.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We’re fortunate to have sponsorship from &lt;a href=&quot;http://www.revolutionanalytics.com/&quot;&gt;Revolution Analytics&lt;/a&gt; for our snacks and speaker prizes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.revolutionanalytics.com/&quot;&gt;&lt;img src=&quot;http://dl.dropbox.com/u/3356641/blogstuff/RevolutionAnalytics_logo_374x87_trans.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;resources-for-r-help&quot;&gt;Resources for R Help&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#some-tips-on-getting-started&quot;&gt;Getting Started&lt;/a&gt; | &lt;a href=&quot;#d-rug-resources&quot;&gt;D-RUG Resources&lt;/a&gt; | &lt;a href=&quot;#web-resources&quot;&gt;Web Resources&lt;/a&gt; | &lt;a href=&quot;#other-mailing-lists&quot;&gt;Mailing Lists&lt;/a&gt; | &lt;a href=&quot;#books&quot;&gt;Books&lt;/a&gt; | &lt;a href=&quot;#r-courses-at-davis&quot;&gt;Courses&lt;/a&gt; | &lt;a href=&quot;#miscellaneous&quot;&gt;Misc&lt;/a&gt; | &lt;a href=&quot;#general-statistics-resources-at-uc-davis&quot;&gt;Stats at UCD&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;some-tips-on-getting-started&quot;&gt;Some tips on getting started:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Download R &lt;a href=&quot;http://cran.cs.wwu.edu/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;After you install R, I recommend you install &lt;a href=&quot;http://www.rstudio.org/&quot;&gt;RStudio&lt;/a&gt;.  RStudio is a program that makes R easier to use, and is being widely adopted by both beginning and advanced R users. Importantly, it works across most computer platforms, and has features that make it easy to &lt;a href=&quot;http://rpubs.com/&quot;&gt;share your work&lt;/a&gt;, collaborate, and do &lt;a href=&quot;http://rstudio.org/docs/version_control/overview&quot;&gt;proper version control&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.google.com&quot;&gt;Google&lt;/a&gt; is your first stop for most questions.  You’ll most likely reach most of the resources below while searching for your specific question.&lt;/li&gt;
-  &lt;li&gt;Our regular R work sessions and &lt;a href=&quot;https://groups.google.com/d/forum/davis-rug&quot;&gt;listserv&lt;/a&gt; are great places to ask questions, especially if you are not sure what you are looking for.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;d-rug-tutorials-from-our-meetings&quot;&gt;D-RUG tutorials from our meetings&lt;/h3&gt;
-
-&lt;p&gt;Sometimes D-RUG members put together useful resources and tutorials for our meetings which we post on the blog under the “D-RUG” tag:&lt;/p&gt;
-
-&lt;ul&gt;
-    
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;web-resources&quot;&gt;Web Resources&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Everyone learns R differently, for different purposes. Thus, you’ll probably need to learn specialized packages for your field or pplication. Resources and books here are general-purpose, with some bent towards ecological statistics applications.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There’s no need to reinvent the wheel.  Here are lists of beginner’s resources which others have compiled. R tools evolve rapidly, though, so be sure to check that your guide is up-to-date!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rseek.org/&quot;&gt;Rseek&lt;/a&gt; is a search engine for R resources.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;RStudio’s &lt;a href=&quot;http://www.rstudio.org/docs/help_with_r&quot;&gt;Getting Help with R&lt;/a&gt; page or &lt;a href=&quot;http://www.rstudio.com/resources/training/online-learning/#R&quot;&gt;online learning&lt;/a&gt; page.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.revolutionanalytics.com/beginner-tips/&quot;&gt;Beginner tips from Revolution Analytics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A &lt;a href=&quot;https://www.coursera.org/course/rprog&quot;&gt;free online course&lt;/a&gt; from Coursera&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://pairach.com/2012/06/17/r_tutorials_non-uni/&quot;&gt;List of Free Online R Tutorials&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For more advanced usage, Hadley Wickham’s &lt;a href=&quot;http://adv-r.had.co.nz/&quot;&gt;Advanced R&lt;/a&gt; is a free e-book and he is also writing a book on &lt;a href=&quot;http://r-pkgs.had.co.nz/&quot;&gt;creating R packages&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Online materials from an &lt;a href=&quot;http://www.unc.edu/courses/2010fall/ecol/563/001/index.html&quot;&gt;R-based ecological statistics course&lt;/a&gt; from UNC.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;R in a nutshell&lt;/em&gt; by Joseph Adler is a good book that’s available in the Davis library and &lt;a href=&quot;http://proquest.safaribooksonline.com/9781449377502&quot;&gt;online&lt;/a&gt; for Davis users.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ms.mcmaster.ca/~bolker/emdbook/&quot;&gt;Ecological Models and Data with R&lt;/a&gt; by Ben Bolker.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nostarch.com/artofr.htm&quot;&gt;The Art of R Programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.introductoryr.co.uk/&quot;&gt;Introductory R&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;A Primer of Ecology with R&lt;/em&gt; by M. Henry H. Stevens is also available &lt;a href=&quot;http://www.springerlink.com/content/l48073/?p=6e7edb19e2964135bb5b67aa016171de&amp;amp;pi=15#section=64711&amp;amp;page=5&amp;amp;locus=0&quot;&gt;online&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;other-mailing-lists&quot;&gt;Other Mailing Lists&lt;/h3&gt;
-
-&lt;p&gt;These mailing list are very useful not just as a place to ask questions.  They are probably where you will find your answers when you search on Google.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The &lt;a href=&quot;http://www.r-project.org/mail.html&quot;&gt;R-Help mailing list&lt;/a&gt; and it’s many subgroups, including an &lt;a href=&quot;https://stat.ethz.ch/mailman/listinfo/r-sig-ecology&quot;&gt;Ecology-specific group&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt; is a popular Q&amp;amp;A site for computer programming that a lot of &lt;a href=&quot;http://stackoverflow.com/questions/tagged/r&quot;&gt;discussions about R&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lists.ucdavis.edu/sympa/info/statscicomp&quot;&gt;The Davis Scientific and Statistical Computing List&lt;/a&gt; is mostly used by advanced users and includes some of the developers of R.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;r-courses-at-davis&quot;&gt;R Courses at Davis&lt;/h3&gt;
-
-&lt;p&gt;There are a few courses at UC Davis that use R.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stat.ucdavis.edu/~duncan/&quot;&gt;Duncan Temple Lang&lt;/a&gt; (one of the developers of R) teaches &lt;a href=&quot;http://eeyore.ucdavis.edu/stat141/&quot;&gt;&lt;em&gt;Statistical Computing&lt;/em&gt; (STA141)&lt;/a&gt;, a course mostly about R but also more general topics in computer science for statistics. He also organizes an informal seminar series on statistical computing.  &lt;a href=&quot;http://eeyore.ucdavis.edu/stat242/&quot;&gt;STA 242&lt;/a&gt; is a more advanced version of the course.  He also will teach STA 135 - &lt;em&gt;Multivariate Data Analysis&lt;/em&gt; this year, which is not about R but uses R for data exploration, data mining, and regression.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://xcelab.net/rm/&quot;&gt;Richard McElreath&lt;/a&gt;’s &lt;em&gt;Statistical Rethinking&lt;/em&gt; (ANT298) is a course in Bayesian statistical methods which doesn’t focus on R but teaches enough for the applications in the course.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.des.ucdavis.edu/faculty/baskett/&quot;&gt;Marissa Baskett&lt;/a&gt; and &lt;a href=&quot;http://www-eve.ucdavis.edu/sschreiber/&quot;&gt;Sebastian Schreiber&lt;/a&gt; teach &lt;em&gt;Computational methods in population biology&lt;/em&gt; (ECL298) in alternate years. This course also isn’t explicitly about R but teaches enough basics so as to be able to use it for the applications in the course.  They also created this handy &lt;a href=&quot;http://www.des.ucdavis.edu/faculty/baskett/downloads/Rcommands.pdf&quot;&gt;cheat sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Design, Analysis, and Interpretation of Experiments&lt;/em&gt; (PLS 205) has in the past provided an optional extra section to learn techniques in R in addition to SAS&lt;/li&gt;
-  &lt;li&gt;Carole Hom teaches &lt;em&gt;Introduction to Dynamic Models in Modern Biology&lt;/em&gt; (BIS 132) where R is used for differential and difference equation modeling.&lt;/li&gt;
-  &lt;li&gt;There are occasional &lt;a href=&quot;http://www.hafnerconsulting.com/ucd2012/&quot;&gt;paid workshops&lt;/a&gt; offered on campus&lt;/li&gt;
-  &lt;li&gt;At least one section of STA100 uses R&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.des.ucdavis.edu/FacultyInfo.aspx?ID_Number=83&quot;&gt;Robert Hijmans&lt;/a&gt; teaches &lt;em&gt;Quantitative Geography&lt;/em&gt; (GEO200CN).  It is a survey course about spatial data analysis and modeling using R, including subjects such as point pattern analysis, kriging, inference, cellular automata and Markov chains. It has lectures, disussions, and a intensive lab.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://animalscience.ucdavis.edu/faculty/fadel/&quot;&gt;Jim Fadel&lt;/a&gt; teaches ABG250: &lt;em&gt;Mathematical Modeling in Biological Systems&lt;/em&gt;, which uses R and teaches enough for the applications in class&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://biotelemetry.ucdavis.edu/pages/bio_Steel.asp&quot;&gt;Anna Steel&lt;/a&gt; taught ECL298: &lt;em&gt;R for Dummies: Basics of data manipulation in R&lt;/em&gt; Winter Quarter 2013. The course may be taught by someone else in the future, but is still up in the air.&lt;/li&gt;
-  &lt;li&gt;The political science methods sequence (POL211, POL212, POL213) uses R.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.plantsciences.ucdavis.edu/faculty/latimer/index.htm&quot;&gt;Andrew Latimer&lt;/a&gt;’s &lt;em&gt;Applied Statistical Modeling for Environmental Science&lt;/em&gt; (PLS298) uses R in addition to JAGS and OPENBugs. It assumes familiarity with R.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.r-bloggers.com/&quot;&gt;R-bloggers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The &lt;a href=&quot;https://twitter.com/RLangTip&quot;&gt;One R Tip A Day Twitter Account&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/search/%23rstats?q=%23rstats&quot;&gt;#rstats&lt;/a&gt; is a common hashtag for discussing R on Twitter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;general-statistics-resources-at-uc-davis&quot;&gt;General Statistics Resources at UC Davis&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here is &lt;a href=&quot;stats.html&quot;&gt;a page compiling stats and modeling courses&lt;/a&gt; that Ecology students can take at UC Davis&lt;/li&gt;
-  &lt;li&gt;The UC Davis Department of Statistics has a &lt;a href=&quot;http://anson.ucdavis.edu/stats-lab/services&quot;&gt;consulting service&lt;/a&gt; that is free for disseration-related statistical advice.  You get a 1-hour meeting with a statistician to discuss your research and they will send you a write-up of their recommendations.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 16 Mar 2016 00:00:00 -0700</pubDate>
-        <link>https://nistara.github.io/2016/03/16/Trying-Drug.html</link>
-        <guid isPermaLink="true">https://nistara.github.io/2016/03/16/Trying-Drug.html</guid>
-        
         
       </item>
     
