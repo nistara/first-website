@@ -6,7 +6,7 @@ menu: true
 ---
 ![]({{ nistara.github.io }}/_assets/images/Bio.png)
 
-I am a PhD candidate in the graduate group of Epidemiology. I'm just starting on creating this site to keep track of things like R code snipptes, etc that help me with my PhD project (and beyond). My background is that of a Veterinarian, though I am keen on amalgamating my Veterinary and Epidemiology knowledge with programming...so please bear with me as I find my way in this world of github, jekyll, programming, and contributing positively to this planet! 
+I am a PhD candidate in the graduate group of Epidemiology. I'm just starting on creating this site to keep track of things like R code snippets, etc that help me with my PhD project (and beyond). My background is that of a Veterinarian, though I am keen on amalgamating my Veterinary and Epidemiology knowledge with programming...so please bear with me as I find my way in this world of github, jekyll, programming, and contributing positively to this planet! 
 
 As of now, I am working on spatial analyses of infectious agents, and developing tools to help my research group manipulate project data.
 
