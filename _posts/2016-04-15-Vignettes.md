@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 title: Vignettes in R packages
 date: "2016-04-15"
@@ -12,7 +11,7 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 
 I find it very useful to go through vignettes provided by R packages, which help me figure out how to use the functions within them. For example, the package "dismo", has a useful vignette names "sdm", for species distribution modeling. 
 
-We use the function `vignette` and `edit` to go about it. 
+We use the function `vignette` and `edit` to go about this. 
 
 For example, 
 {% highlight r %}
@@ -41,4 +40,4 @@ vignette(all = TRUE)
 
 {% endhighlight %}
 
-I used this [post](http://www.inside-r.org/r-doc/utils/vignette) from [inside-R](http://www.inside-r.org/) as a reference point. for formatting help.
+Thanks to this [post](http://www.inside-r.org/r-doc/utils/vignette) from [inside-R](http://www.inside-r.org/), which provided an excellent reference when I was searching how to do it.  
