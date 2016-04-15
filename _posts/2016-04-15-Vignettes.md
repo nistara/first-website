@@ -5,9 +5,6 @@ date: "2016-04-15"
 tags: 
   - R
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button## Viewing and editing vignettes
 
 I find it very useful to go through vignettes provided by R packages, which help me figure out how to use the functions within them. For example, the package "dismo", has a useful vignette names "sdm", for species distribution modeling. 
 
