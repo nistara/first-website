@@ -9,7 +9,7 @@ published: true
 
 I find it very useful to go through vignettes provided by R packages, which help me figure out how to use their functions. For example, the package "dismo", has a useful vignette named "sdm", for species distribution modeling. 
 
-We use the function `vignette` and `edit` to go about this. 
+We use the functions `vignette` and `edit` to go about this. 
 
 For example, 
 {% highlight r %}
