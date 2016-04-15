@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 date: "2016-04-15"
 tags: 
@@ -27,6 +27,9 @@ edit(vignette("sdm", package = "dismo"))
 v = vignette("sdm", package = "dismo")
 edit(v)
 
+# Viewing vignette
+print(v)
+
 # Listing vignettes from all attached packages
 vignette(all = FALSE)
 
@@ -34,3 +37,5 @@ vignette(all = FALSE)
 vignette(all = TRUE)
 
 {% endhighlight %}
+
+I used this [post](http://www.inside-r.org/r-doc/utils/vignette) from [inside-R](http://www.inside-r.org/) as a reference point. 
