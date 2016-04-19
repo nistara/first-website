@@ -18,6 +18,17 @@
         <a href="/tags.html">Tags</a>
         <span class="mastdiv">|</span>
         <a href="/archive.html">Archive</a>
+        {% for page in site.pages %}{% if page.menu %}
+          <span class="mastdiv">|</span>
+          <a href="{{ page.url | prepend: site.baseurl }}">
+            <span style = "font-family: 'lablogIcons';">  &#xe60a; </span>
+            {% assign menutag = page.title | truncate: 10  %}
+            {% if page.menu.size !=  %}
+              {% assign menutag = page.menu %}
+            {% endif %}
+            {{ menutag }}
+          </a>
+        {% endif %}{% endfor %}
   </div>
       
       
