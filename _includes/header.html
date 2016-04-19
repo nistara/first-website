@@ -18,6 +18,7 @@
         <a href="/tags.html">Tags</a>
         <span class="mastdiv">|</span>
         <a href="/archive.html">Archive</a>
+        
         {% for page in site.pages %}{% if page.menu %}
           <span class="mastdiv">|</span>
           <a href="{{ page.url | prepend: site.baseurl }}">
@@ -29,6 +30,40 @@
             {{ menutag }}
           </a>
         {% endif %}{% endfor %}
+        
+        {% for page in site.pages %}{% if page.menu %}
+          <span class="mastdiv">|</span>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+            <span style = "font-family: 'lablogIcons';">  &#xe60a; </span>
+            {% assign menutag = page.title | truncate: 10  %}
+            {% if page.menu.size !=  %}
+              {% assign menutag = page.menu %}
+            {% endif %}
+            {{ menutag }}
+           </a>
+        {% endif %}{% endfor %}
+
+        {% for post in site.posts %}{% if post.menu %}
+        <span class="mastdiv">|</span>
+         <a class="page-link" href="{{ post.url | prepend: site.baseurl }}"><span style = "font-family: 'lablogIcons';">  
+         </span> 
+         {{ post.title }}
+         </a>
+       {% endif %}{% endfor %}
+
+       {% for page in site.pages %}{% if page.url == "/MENU.html" %}
+       <span class="mastdiv">|</span>
+       <div class="menu-content">
+          {{ page.content | markdownify }}
+       </div>
+      {% endif %}{% endfor %}
+
+    {% for page in site.pages %}{% if page.layout == 'menu' %}
+       <span class="mastdiv">|</span>
+      <div class="menu-content">
+        {{ page.content | markdownify }}
+      </div>
+    {% endif %}{% endfor %}
   </div>
       
       
