@@ -1,10 +1,9 @@
 ---
 layout: page
-title: 
+title: About me
 menu: true
 
 ---
-About me
 
 ![]({{ nistara.github.io }}/_assets/images/Bio.png)
 
