@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-  <a class="site-title" href="{{ site.baseurl | append : '/index.html' }}">{{ site.title }}</a>
+  <a class="site-title" href="{{ site.baseurl | append : '/about.html' }}">{{ site.title }}</a>
 
 
   <nav  class="main-menu">
@@ -10,7 +10,7 @@
   <label for="menu"></label>
   <div class="trigger">
 
-    <a class="page-link" href="{{ site.baseurl }}/about.html"><span style = "font-family: 'lablogIcons';">  &#xe605; </span> {{ site.title }}</a>
+    <a class="page-link" href="{{ site.baseurl }}/index.html"><span style = "font-family: 'lablogIcons';">  &#xe605; </span> {{ site.title }}</a>
 
     {% for page in site.pages %}{% if page.url == "/tasks.html" %}
       <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"><span style = "font-family: 'lablogIcons';">  &#xf046; </span> {{ page.title }}</a>
