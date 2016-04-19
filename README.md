@@ -1,6 +1,6 @@
 
 ## nistara.github.io
-This is the code for my site [nistara.github.io](http://nistara.github.io/). It's based on Florian Schneider's [Jekyll-lablog](https://github.com/fdschneider/jekyll-lablog), with some modifications like editing the footer, and adding a header similar to (Sean C. Anderson's site)[http://seananderson.ca/].
+This is the repository for my site [nistara.github.io](http://nistara.github.io/). It's based on Florian Schneider's [Jekyll-lablog](https://github.com/fdschneider/jekyll-lablog), with some modifications like editing the footer, and adding a header similar to (Sean C. Anderson's site)[http://seananderson.ca/].
 
 
 ## License
