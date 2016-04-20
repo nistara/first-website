@@ -2,3 +2,11 @@
 Sitemap: http://nistara.github.io/sitemap_location.xml
 xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://nistara.github.io/about.html</loc> 
+    <loc>http://nistara.github.io/index.html</loc> 
+    <loc>http://nistara.github.io/archive.html</loc> 
+  </url>
+</urlset>
