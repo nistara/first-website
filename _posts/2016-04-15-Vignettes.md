@@ -5,6 +5,7 @@ date: "2016-04-15"
 tags: 
   - R
 published: true
+comments: true
 ---
 
 I find it very useful to go through vignettes provided by R packages, which help me figure out how to use their functions. For example, the package "dismo", has a useful vignette named "sdm", for species distribution modeling. 
