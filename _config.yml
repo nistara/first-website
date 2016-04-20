@@ -29,3 +29,7 @@ defaults:   # overwrite with in YAML frontmatter, e.g. 'place: New York'
       layout: "post"
       place:  # default Geolocation of posts.
       author: # default author for posts (for multi-authoring)
+      
+# Generating sitemaps:
+gems:
+  - jekyll-sitemap
