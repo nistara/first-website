@@ -1,1 +1,2 @@
    User-agent: * Disallow: /
+Sitemap: http://nistara.github.io/sitemap_location.xml
