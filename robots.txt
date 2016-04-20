@@ -1,2 +1,4 @@
    User-agent: * Disallow: /
 Sitemap: http://nistara.github.io/sitemap_location.xml
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+
