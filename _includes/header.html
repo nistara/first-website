@@ -2,9 +2,40 @@
 
   <div class="wrapper">
 
-  <a class="site-title" href="{{ site.baseurl | append : '/index.html' }}">{{ site.title }}</a>
+  <a class="site-title" href="{{ site.baseurl | append : '/about.html' }}">{{ site.title }}</a>
 
+    <!-- Primary Page Layout - from https://github.com/seananderson/seananderson.github.com/blob/master/_includes/header.html
+  ================================================== -->
 
+  <div class="container">
+      <br><br><br>
+        <!-- <a href="/about.html">About</a>
+        <span class="mastdiv">|</span> -->
+        <a href="/index.html">Blog</a>
+        <span class="mastdiv">|</span>
+        <a href="/tags.html">Tags</a>
+        <span class="mastdiv">|</span>
+        <a href="/archive.html">Archive</a>
+        
+        {% for page in site.pages %}{% if page.layout == 'project' %}
+          <span class="mastdiv">|</span>
+          <a href="{{ page.url | prepend: site.baseurl }}">
+            <span style = "font-family: 'lablogIcons';">  &#xe60a; </span>
+            {% assign menutag = page.title | truncate: 10  %}
+            {% if page.menu.size !=  %}
+              {% assign menutag = page.menu %}
+            {% endif %}
+            {{ menutag }}
+          </a>
+        {% endif %}{% endfor %}
+        
+        <span class="mastdiv">|</span>
+        <a href="https://github.com/nistara">Code</a>
+    
+  </div>
+      
+      
+      
   <nav  class="main-menu">
   <input type="checkbox" id="menu" />
   <label for="menu"></label>
