@@ -4,6 +4,7 @@ title: "Building your own R packages"
 date: "2016-05-01"
 tags:
  - R
+ publish: no
 ---
 Under construction
 
@@ -19,4 +20,14 @@ The tools you're going to need for this are:
 - R packages
     * devtools - to easily create and publish your package on github
     * roxygen2 - for easy documentation of your package
-    * 
+
+### Let's get started
+
+First, create your package in the directory you want it to be:
+
+
+{% highlight r %}
+devtools::create("demo")
+{% endhighlight %}
+
+A project is automatically created within that folder, along with the skeleton of the R package. You'll notice a folder named **R**, which is where you want to write and store all your script for the package. 
