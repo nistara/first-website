@@ -176,6 +176,8 @@ library(demo)
 quakes_leaflet()
 {% endhighlight %}
 
+<br><br>
+
 ## **That's it! But what if you want to use git/github with your package?**
 To enable version control using git and github, and subsequently host your package on github, change your project settings via **Tools** from the menu bar. _If you don't intend to use git/github, skip the following steps:_
 
