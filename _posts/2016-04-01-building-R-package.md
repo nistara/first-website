@@ -5,7 +5,6 @@ date: "2016-05-01"
 tags:
  - R
 comments: true
-published: false
 ---
 Under construction
 
@@ -40,8 +39,9 @@ install.packages(c("devtools", "
 devtools::create("package_path/demo")
 {% endhighlight %}
 
-A project is automatically created within that folder, along with the basic skeleton of an R package:
+<br>
 
+A project is automatically created within that folder, along with the basic skeleton of an R package:
 
 <img src="https://raw.githubusercontent.com/nistara/nistara.github.io/master/_assets/images/2016-05-01-R-packages-post/2016-05-01-new-package.png" width="250" height="175" />
 
@@ -65,5 +65,38 @@ From Git/SVN in the project options, choose git.
 
 You'll see git options in your project window now:
    ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-5-now-git.png)
+
+## **Writing functions**
+
+One of the best things about packages is that they can be extremely helpful in organzing your own script, let alone something for others to use. When I found myself doing some detailed and sometimes convoluted work on my dataset, I thought others in my project might go through something similar in the future...and got started on tranforming my code into functions. But then for R beginners, it's just that much easier to share your functions using a package instead of sending them your script to run. This will be a smoother transition into ongoing analyses, even though they'll spend time learning R anyway!
+
+So without further ado, let's create a basic function which generates and plots random normal numbers (100, unless otherwise specified):
+
+{% highlight r %}
+dplot_rnorm <- function(n = 100) {
+  numbers <- rnorm(n)
+  d <- density(numbers)
+  title <- sprintf("Density plot of %s random normal numbers", n)
+  plot(d, main = title)
+  polygon(d, col = "lightgrey")
+}
+{% endhighlight %}
+
+You can load and run the functions in your package with devtools 
+{% highlight r %} 
+# Load the function(s) created in your package
+devtools::load_all() 
+
+# Check out the dplot_rnorm function now
+dplot_rnorm()
+{% endhighlight %}
+
+<img src={{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/sample.pdf) width="250" height="175" />
+
+![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/sample.pdf)
+
+
+devtools::load_
+
 
 
