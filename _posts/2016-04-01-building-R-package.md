@@ -6,7 +6,6 @@ tags:
  - R
 comments: true
 ---
-Under construction
 
 I made this post for an introduction to building and documenting your own R packages for the Davis R-users' group. It'll get you started on making basic R packages, and once you get the flavor of what it's all about, you can unleash your inner R genie to create your own tools! 
 
@@ -34,8 +33,7 @@ library("devtools")
 devtools::install_github("klutometis/roxygen")
 library(roxygen2)
 
-Step
-install.packages(c("devtools", "
+# Create a demo package
 devtools::create("package_path/demo")
 {% endhighlight %}
 
@@ -52,19 +50,6 @@ A project is automatically created within that folder, along with the basic skel
 
    ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-1-start-screenI.png)
 
-
-
-To enable version control using git and github, and subsequently host your package on github, change your project settings via **Tools** from the menu bar. _If you don't intend to use git/github, skip the following steps:_
-
-   ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-2-start-screenII.png)
-
-From Git/SVN in the project options, choose git.
-
-   ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-3-choose-git.png)
-
-
-You'll see git options in your project window now:
-   ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-5-now-git.png)
 
 ## **Writing functions**
 
@@ -83,20 +68,143 @@ dplot_rnorm <- function(n = 100) {
 {% endhighlight %}
 
 You can load and run the functions in your package with devtools 
-{% highlight r %} 
+
+{% highlight r %}
 # Load the function(s) created in your package
 devtools::load_all() 
 
-# Check out the dplot_rnorm function now
+# Check out the dplot_rnorm function to see if it works
 dplot_rnorm()
 {% endhighlight %}
 
-<img src={{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/sample.pdf) width="250" height="175" />
-
-![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/sample.pdf)
+<img src="https://nistara.github.io/_assets/images/2016-05-01-R-packages-post/sample.pdf" width="400" height="500" />
 
 
-devtools::load_
+It does! Now we'd also like to add documentation for our function. The package roxygen2 is great for this because it significantly simpifies the documentation process. 
+
+{% highlight r %}
+#' Random number generator and plotter
+#'
+#' This function generates random normal numbers, and creates a density plot for them.
+#' @param n number of random normal numbers you'd like generated (default is 100)
+#' @keywords random normal, plot
+#' @export
+#' @examples
+#' dplot_rnorm()
+#' dplot_rnorm(n = 1000)
+
+dplot_rnorm <- function(n = 100) {
+  numbers <- rnorm(n)
+  d <- density(numbers)
+  title <- sprintf("Density plot of %s random normal numbers", n)
+  plot(d, main = title)
+  polygon(d, col = "lightgrey")
+}
+{% endhighlight %}
+
+Now document your package using devtools, and check out the generated help file:
+{% highlight r %}
+# Document package with devtools
+devtools::document()
+
+# See what the help file looks like
+?dplot_rnorm
+{% endhighlight %}
+
+<img src="https://nistara.github.io/_assets/images/2016-05-01-R-packages-post/help-file.png" width="600" border="1"/>
+
+<br>
+
+Another thing you might want to update is the DESCRIPTION file of yor package. Open it and see the default description, and update it as you'd like (it's pretty self explanatory). 
+
+Voila! We're done with our basic package. 
+
+### **What if some commands depend on another package?**
+You might find yourself needing to include commands from another package, for e.g. dplyr, or tidyr. They're called **dependencies**, and can be added with (no surprises) devtools. I like [leaflet](https://rstudio.github.io/leaflet/)  a lot, so will use it as an example:
+
+{% highlight r %}
+devtools::use_package("leaflet")
+{% endhighlight %}
+
+Now let's write a function which calls leaflet:
+
+{% highlight r %}
+#' Function with dependency
+#'
+#' This function depends upon another package (leaflet), and you need to include it with devtools. For more information on leaflet, visit their website:
+#' https://rstudio.github.io/leaflet/
+#' @keywords leaflet
+#' @export
+
+# Using leaflet in the function. Note how it's called below.
+# If you don't already know leaflet, check it out at https://rstudio.github.io/leaflet/
+quakes_leaflet <- function() {
+  data(quakes)
+  map <- leaflet::leaflet()
+  map <- leaflet::addTiles(map)
+  map <- leaflet::addCircleMarkers(map, data = quakes[1:20, ], ~long, ~lat, popup = ~as.character(mag), weight = 5)
+  map
+}{% endhighlight %}
+
+To see how it's working, you need to repeat the devtools' _document_ and _load_all_ functions again:
+{% highlight r %}
+devtools::document()
+devtools::load_all()
+
+# Check its help file
+?quakes_leaflet()
+
+# Run the function
+quakes_leaflet()
+{% endhighlight %}
+
+## **Installing your package as a local file**
+
+After you've wrapped up the package and it's good to go, you can install the package via:
+
+{% highlight r %}
+# Install demo
+install.packages("path/to/demo", repos = NULL, type="source")
+library(demo)
+
+# Run a function from demo or look at a help file
+??quakes_leaflet
+quakes_leaflet()
+{% endhighlight %}
+
+## **That's it! But what if you want to use git/github with your package?**
+To enable version control using git and github, and subsequently host your package on github, change your project settings via **Tools** from the menu bar. _If you don't intend to use git/github, skip the following steps:_
+
+   ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-2-start-screenII.png)
+
+From Git/SVN in the project options, choose git.
+
+   ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-3-choose-git.png)
+
+
+You'll see git options in your project window now:
+   ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-5-now-git.png)
+   
+You can now commit changes and push the contents of the package to your github repository. 
+
+To install a package (e.g. the demo package I just created) from the github repository:
+
+{% highlight r %}
+devtools::install_github("nistara/demo")
+{% endhighlight %}
+
+## **Resources/References for you**
+Hope you've learnt enough to get started with making packages. My main references were:
+
+* Hadley Wickham's book, **[R packages](http://r-pkgs.had.co.nz)**, and 
+
+* Hilary Parker's short and sweet (and very helpful) [post on writing a package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/). 
+
+There are a few different ways to go about writing your package, and this is just one of them. For a deepr plunge into package making, I highly recommend going through Hadley's book.
+
+
+
+
 
 
 
