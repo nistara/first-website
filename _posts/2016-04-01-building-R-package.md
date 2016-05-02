@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Building your own R packages"
+title: "Writing your own R package"
 date: "2016-05-01"
 tags:
  - R
+comments: true
 ---
 Under construction
 
-I made this post for an introduction to building and documenting your own R packages for the Davis R-users' group. It'll get you started on making basic R packages, and once you get the flavor of what it's all about, you can unleash your own inner R genie to create your own things! 
+I made this post for an introduction to building and documenting your own R packages for the Davis R-users' group. It'll get you started on making basic R packages, and once you get the flavor of what it's all about, you can unleash your inner R genie to create your own tools! 
 
 ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-R-genie.png)
 
@@ -41,7 +42,7 @@ devtools::create("package_path/demo")
 A project is automatically created within that folder, along with the basic skeleton of an R package:
 
 
-<img src="https://github.com/nistara/nistara.github.io/_assets/images/2016-05-01-R-packages-post/2016-05-01-new-package.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://raw.githubusercontent.com/nistara/nistara.github.io/master/_assets/images/2016-05-01-R-packages-post/2016-05-01-new-package.png" width="250" height="175" />
 
 
 <br>
