@@ -49,6 +49,7 @@ A project is automatically created within that folder, along with the basic skel
 
    ![]({{ nistara.github.io }}/_assets/images/2016-05-01-R-packages-post/2016-05-01-1-start-screenI.png)
 
+<br><br>
 
 ## **Writing functions**
 
@@ -118,6 +119,8 @@ Another thing you might want to update is the DESCRIPTION file of yor package. O
 
 Voila! We're done with our basic package. 
 
+<br><br>
+
 ### **What if some commands depend on another package?**
 You might find yourself needing to include commands from another package, for e.g. dplyr, or tidyr. They're called **dependencies**, and can be added with (no surprises) devtools. I like [leaflet](https://rstudio.github.io/leaflet/)  a lot, so will use it as an example:
 
@@ -157,6 +160,8 @@ devtools::load_all()
 quakes_leaflet()
 {% endhighlight %}
 
+<br><br>
+
 ## **Installing your package as a local file**
 
 After you've wrapped up the package and it's good to go, you can install the package via:
@@ -191,6 +196,8 @@ To install a package (e.g. the demo package I just created) from the github repo
 {% highlight r %}
 devtools::install_github("nistara/demo")
 {% endhighlight %}
+
+<br><br>
 
 ## **Resources/References for you**
 Hope you've learnt enough to get started with making packages. My main references were:
