@@ -5,6 +5,7 @@ date: "2016-03-16"
 tags:
  - Global Health
  - video
+comments: true
 ---
 
 I made a video for the [2104 UC Global Health Day Video Challenge](http://www.ucghi.universityofcalifornia.edu/news-events/uc-global-health-day/2014/video-contest-winners.aspx), organized by the The UC Global Health Institute (UCGHI), whose mission is to “improve the lives of people in California and around the world”.
