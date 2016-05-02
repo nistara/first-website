@@ -29,7 +29,6 @@ Once you''ve installed the libraries, create your package in the directory you w
 
 {% highlight r %}
 install.packages("devtools")
-library("devtools")
 devtools::install_github("klutometis/roxygen")
 library(roxygen2)
 
