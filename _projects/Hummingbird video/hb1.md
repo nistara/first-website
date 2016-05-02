@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Hummingbird Video"
+title: "Hummingbirds"
 category: Hummingbirds
 menu: "Hummingbirds"
 github:
@@ -9,4 +9,4 @@ contact:
 
 ---
 
-I've been working on a video for the Hummingbird health and conservation project. Will post it when it's published. 
+![]({{ nistara.github.io }}/_assets/images/hummers/hummer-header.png)<font size="1">Photo by Nistara Randhawa</font>
