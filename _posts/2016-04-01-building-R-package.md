@@ -77,7 +77,7 @@ devtools::load_all()
 dplot_rnorm()
 {% endhighlight %}
 
-<img src="https://nistara.github.io/_assets/images/2016-05-01-R-packages-post/sample.pdf" width="400" height="500" />
+<img src="https://nistara.github.io/_assets/images/2016-05-01-R-packages-post/sample.png" width="400" height="500" />
 
 
 It does! Now we'd also like to add documentation for our function. The package roxygen2 is great for this because it significantly simpifies the documentation process. 
