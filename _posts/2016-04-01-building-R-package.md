@@ -80,7 +80,7 @@ dplot_rnorm()
 <img src="https://nistara.github.io/_assets/images/2016-05-01-R-packages-post/sample.png" width="400" height="500" />
 
 
-It does! Now we'd also like to add documentation for our function. The package roxygen2 is great for this because it significantly simpifies the documentation process. 
+It does! Now we'd also like to add documentation for our function. The package roxygen2 is great for this because it significantly simplifies the documentation process. 
 
 {% highlight r %}
 #' Random number generator and plotter
