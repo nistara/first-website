@@ -4,7 +4,7 @@ title: Nistara Randhawa # type your own lablog title here
 description: > # this means to ignore newlines until "baseurl:"
   Veterinary science, programming, and the One Health Approach
 baseurl:  # the subpath of your site, e.g. /blog/
-url: "https://nistara.github.io" # the base hostname & protocol for your site
+url: "https://nistara.net" # the base hostname & protocol for your site
 include: [ _assets , _projects ]
 
 name : 
