@@ -11,7 +11,7 @@ name :
 email :
 github_username: nistara
 twitter_username: 
-website : https://nistara.github.io
+website : nistara.github.io
 
 # Build settings
 markdown: kramdown
