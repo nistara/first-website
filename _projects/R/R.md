@@ -11,11 +11,11 @@ contact:
 
 Links to useful information I've needed or will need in the future. Also a starting point for collating iinformation that can be shared with others. Will continue to add links as I find them. 
 
-### R and RStudio
+### **R and RStudio**
 
 - Software Carpentry's [_R for reproducible scientific analysis_](http://swcarpentry.github.io/r-novice-gapminder/)
 
-### R Markdown
+### **R Markdown**
 
 - Great traning material by Marian L. Schmidt: [_Creating Dynamic Documents with RMarkdown and Knitr_](http://rpubs.com/marschmi/RMarkdown)
 
