@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "R"
+title: ""
 category: R
 menu: "R"
 github:
