@@ -13,11 +13,11 @@ Links to useful information I've needed or will need in the future. Also a start
 
 ### R and RStudio
 
-- Software Carpentry's [R for reproducible scientific analysis](http://swcarpentry.github.io/r-novice-gapminder/)
+- Software Carpentry's [_R for reproducible scientific analysis_](http://swcarpentry.github.io/r-novice-gapminder/)
 
 ### R Markdown
 
-- Great traning material by Marian L. Schmidt: [Creating Dynamic Documents with RMarkdown and Knitr](http://rpubs.com/marschmi/RMarkdown)
+- Great traning material by Marian L. Schmidt: [_Creating Dynamic Documents with RMarkdown and Knitr_](http://rpubs.com/marschmi/RMarkdown)
 
-- [Using R markdown and knitr to generate posts](http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html)
+- [_Using R markdown and knitr to generate posts_](http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) by Nicole White
 
