@@ -19,5 +19,5 @@ Links to useful information I've needed or will need in the future. Also a start
 
 - Great traning material by Marian L. Schmidt: [_Creating Dynamic Documents with RMarkdown and Knitr_](http://rpubs.com/marschmi/RMarkdown)
 
-- [_Using R markdown and knitr to generate posts_](http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) by Nicole White
+- [_Using R markdown and knitr to generate jekyll posts_](http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) by Nicole White
 
