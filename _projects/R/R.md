@@ -20,5 +20,6 @@ Links to useful information I've needed or will need in the future. Also a start
 ####R Markdown
 
 - Great traning material by Marian L. Schmidt: [Creating Dynamic Documents with RMarkdown and Knitr](http://rpubs.com/marschmi/RMarkdown)
+
 - [Using R markdown and knitr to generate posts](http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html)
 
