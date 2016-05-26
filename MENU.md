@@ -1,4 +1,4 @@
 ---
 ---
 
-Some of my work/projects:
+Useful resources and some of my projects:
