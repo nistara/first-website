@@ -8,7 +8,6 @@ website:
 contact:
 
 ---
-
 Links to useful information I've needed or will need in the future. Also a starting point for collating iinformation that can be shared with others. Will continue to add links as I find them. 
 
 ### **R and RStudio**
