@@ -12,3 +12,6 @@ Am just starting my foray into python and using it via emacs. Adding links here 
 
 - [_**Elpy**_](https://elpy.readthedocs.io/en/latest/index.html)
 - [_Accessing .emacs file_](http://stackoverflow.com/questions/10545437/how-to-disable-the-beep-in-emacs-on-windows)
+- [_**Python Programs for Modelling Infectious Diseases book**_](http://wiki.deductivethinking.com/wiki/Python_Programs_for_Modelling_Infectious_Diseases_book)
+
+
