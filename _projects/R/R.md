@@ -26,4 +26,5 @@ Links to useful information I've needed or will need in the future. Also a start
 
 - [_**useR@HSPH**_](http://rpubs.com/kaz_yos/useR_at_HSPH)
 
-- [_**Basic SIR model in R**_](http://archives.aidanfindlater.com/blog/2010/04/20/the-basic-sir-model-in-r/) 
+- [_**Basic SIR model in R**_](http://archives.aidanfindlater.com/blog/2010/04/20/the-basic-sir-model-in-r/) and another [_**slightly modified one**_](http://rstudio-pubs-static.s3.amazonaws.com/6852_c59c5a2e8ea3456abbeb017185de603e.html)
+
