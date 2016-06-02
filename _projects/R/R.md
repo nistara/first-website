@@ -28,7 +28,7 @@ Links to useful information I've needed or will need in the future. Also a start
 
 - [_**Basic SIR model in R**_](http://archives.aidanfindlater.com/blog/2010/04/20/the-basic-sir-model-in-r/) and another [_**slightly modified one**_](http://rstudio-pubs-static.s3.amazonaws.com/6852_c59c5a2e8ea3456abbeb017185de603e.html)
 
-- [_**Simulating Disease Systems*_](http://biom300.weebly.com/simulating-disease-models-examples.html)
+- [_**Simulating Disease Systems**_](http://biom300.weebly.com/simulating-disease-models-examples.html)
 
 - [_**Epidynamic package**_](https://cran.r-project.org/web/packages/EpiDynamics/EpiDynamics.pdf)
 
