@@ -20,3 +20,8 @@ Links to useful information I've needed or will need in the future. Also a start
 
 - [_**Using R markdown and knitr to generate jekyll posts**_](http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) by Nicole White
 
+### **Epi and R**
+
+- [_**RPubs resouces**_](http://rpubs.com/kaz_yos/toc) by Kazuki Yoshida
+
+- [_**useR@HSPH**_](http://rpubs.com/kaz_yos/useR_at_HSPH) 
