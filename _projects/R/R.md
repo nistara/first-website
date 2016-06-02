@@ -24,4 +24,6 @@ Links to useful information I've needed or will need in the future. Also a start
 
 - [_**RPubs resouces**_](http://rpubs.com/kaz_yos/toc) by Kazuki Yoshida
 
-- [_**useR@HSPH**_](http://rpubs.com/kaz_yos/useR_at_HSPH) 
+- [_**useR@HSPH**_](http://rpubs.com/kaz_yos/useR_at_HSPH)
+
+- [_**Basic SIR model in R**_](http://archives.aidanfindlater.com/blog/2010/04/20/the-basic-sir-model-in-r/) 
