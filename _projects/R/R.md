@@ -32,7 +32,8 @@ Links to useful information I've needed or will need in the future. Also a start
 
 - [_**Epidynamic package**_](https://cran.r-project.org/web/packages/EpiDynamics/EpiDynamics.pdf)
 
-### **Other**
+### **Hadley Wickham's books**
 
-- [_**Python Programs for Modelling Infectious Diseases book**_](http://wiki.deductivethinking.com/wiki/Python_Programs_for_Modelling_Infectious_Diseases_book)
+- [_**R for Data Science**_](http://r4ds.had.co.nz/)
+
 
