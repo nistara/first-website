@@ -1,14 +1,15 @@
 ---
 layout: project
-title: ""
-category: Python
-menu: "Python"
+title: "Emacs"
+category: emacs
+menu: "Emacs"
 github:
 website:
 contact:
 
 ---
-Am just starting my foray into python and using it via emacs. Adding links here that have been helpful to me and useful for future reference.
+
+Links associated with emacs and python. Unfortunately I haven't had much time to learn python, although my other skills are improving (hopefully!).
 
 - [_**Elpy**_](https://elpy.readthedocs.io/en/latest/index.html)
 - [_Accessing .emacs file_](http://stackoverflow.com/questions/10545437/how-to-disable-the-beep-in-emacs-on-windows)
