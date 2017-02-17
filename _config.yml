@@ -15,8 +15,10 @@ website : nistara.github.io
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 noindex:  # if true, google will ignore your pages!
 
