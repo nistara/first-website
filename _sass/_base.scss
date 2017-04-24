@@ -1,3 +1,44 @@
+// START from Chalk
+
+
+$black: #000;
+$gray-darkest: #121111;
+$gray-darker: lighten($gray-darkest, 15);
+$gray-dark: lighten($gray-darkest, 30);
+$gray: lighten($gray-darkest, 45);
+$gray-light: lighten($gray-darkest, 60);
+$gray-lighter: lighten($gray-darkest, 75);
+$gray-lightest: lighten($gray-darkest, 85);
+$white: #fff;
+
+// Font colors
+
+$base-font-color: $gray-dark;
+$base-accent-color: $gray-dark;
+$base-accent-highlighted-color: darken($base-accent-color, 15);
+
+// Border color
+
+$base-border-color: $gray-lightest;
+
+// Page specific colors
+
+$body-background: $white;
+$header-logo-color: $black;
+$header-link-color: $gray-darker;
+$header-link-color-hover: $gray-darkest;
+$article-header-title-color: $gray-darkest;
+$article-header-description-color: $gray-dark;
+$article-post-titles-color: $gray-darkest;
+$article-footer-color: $gray-light;
+$article-footer-link-color: $gray-dark;
+$article-footer-link-color-hover: $gray-darkest;
+$article-paginator-color-hover: $gray-darkest;
+
+
+// STOP from Chalk
+
+
 /**
  * Reset some basic elements
  */
@@ -82,6 +123,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+// from chalk
+
+h1 {
+  font-size: $base-font-size;
+  font-weight: 100;
+  letter-spacing: -.03em;
+  color: $article-header-title-color;
+}
+
 
 
 /**
@@ -92,7 +142,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 10%);
     }
 
     &:hover {
@@ -130,7 +180,7 @@ pre,
 code {
     font-family: $code-font-family;
     font-size: $code-font-size;
-    border: 1px solid $grey-color-light;
+    // border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #f8f8f8;
 }
@@ -140,7 +190,7 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 0px 0px;
     overflow-x: auto;
 
     > code {
@@ -467,3 +517,7 @@ input[type=checkbox] {
         }
     }
 }
+
+
+
+

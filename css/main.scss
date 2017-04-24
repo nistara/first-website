@@ -18,7 +18,9 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #009999;
+// color from https://creativemarket.com/blog/website-color-palettes
+// $brand-color:      #009999;
+$brand-color:      #007F70;
 $brand-color-dark: darken($brand-color, 50%);
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
