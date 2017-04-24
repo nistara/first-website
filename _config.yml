@@ -7,18 +7,21 @@ baseurl:  # the subpath of your site, e.g. /blog/
 url: https://nistara.github.io # the base hostname & protocol for your site
 include: [ _assets , _projects ]
 
+
 name : 
 email :
 github_username: nistara
 twitter_username: 
 website : nistara.github.io
 
+
 # Build settings
 markdown: kramdown
-highlighter: rouge
+syntax_highlighter: rouge
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+
+
 
 noindex:  # if true, google will ignore your pages!
 
