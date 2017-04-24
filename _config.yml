@@ -18,8 +18,11 @@ website : nistara.github.io
 # Build settings
 markdown: kramdown
 syntax_highlighter: rouge
+
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    disable: true
 
 
 
