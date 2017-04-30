@@ -1,9 +1,31 @@
+// =============================================================================
+// start image http://codepen.io/anon/pen/EjzqEd
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+.img-container {
+  min-height: 300px;
+  // background-image: url(../_assets/images/hummers/hummer-header.png);
+  background-image: url(../_assets/images/banners/l2.png);
+  background-repeat: no-repeat;
+  background-size: 800px 300px;
+  background-position: center top;
+  // padding: 0px;
+  // (If don't want to set min-height or some image content is there) */
+}
+// end image
+// =============================================================================
+
 /**
  * Site header
  */
 .site-header {
     border-top: 0px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
 
     min-height: 56px;
 
@@ -22,7 +44,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        // color: $grey-color-dark;
     }
 }
 
@@ -57,7 +79,7 @@
           background-color: $brand-color-dark;
           zoom: 1;
           filter: alpha(opacity=50);
-          opacity: 0.9;
+          // opacity: 0.9;
 
     @include media-query($on-laptop) {
       width: 50%;
@@ -77,7 +99,7 @@
                padding: 5px 20px;
                    // Gaps between nav items, but not on the first one
                    &:first-child {
-                       margin-top: 20px;
+                       // margin-top: 20px;
                    }
            }
 
@@ -272,6 +294,7 @@ color: $grey-color-light;
 }
 
 .post-list {
+    margin-top: 40px;
     margin-left: 0;
     list-style: none;
 
