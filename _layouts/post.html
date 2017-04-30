@@ -36,11 +36,11 @@ layout: default
   {% endif %}
   <li class="relatedPost">
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
-  </a> <span class = "post-meta"> • {{ post.date | date: "%B %e, %Y" }}</span>
+  <!-- </a> <span class = "post-meta"> • {{ post.date | date: "%B %e, %Y" }}</span> -->
   {% if post.tags %}
-  <span class = "post-meta"> • </span>
+  <!-- <span class = "post-meta"> • </span> -->
   {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag" class = "tag"> {{ tag }} </a>  &nbsp
+    <!-- <a href="{{ site.baseurl }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag" class = "tag"> {{ tag }} </a>  &nbsp -->
   {% endfor %}
   {% endif %}
 
