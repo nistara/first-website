@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Easier collaboration with R googlesheets package"
+description: "Working with others and google docs"
 date: "2016-07-16"
 tags:
  - R
@@ -44,6 +45,7 @@ df
 
 # And we're done!! Onwards to using this :) 
 ```
+ 
  
 Github repo for package: https://github.com/jennybc/googlesheets
 
