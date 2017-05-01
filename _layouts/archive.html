@@ -19,7 +19,7 @@ layout: default
 {% if forloop.first %}
 <div>
 <h2>{{this_year}}</h2>
-<h3>{{this_month}}</h3>
+<!-- <h3>{{this_month}}</h3> -->
 <ul>
 
 {% endif %}
@@ -27,7 +27,7 @@ layout: default
 
 
 <li>
-  <span class = "post-meta">{{ post.date | date: "%B %e, %Y" }} • </span>
+  <span class = "post-meta">{{ post.date | date: "%B %e" }} • </span>
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
   </a>
   {% if post.tags %}
@@ -49,12 +49,12 @@ layout: default
 
 <div>
 <h2>{{ next_year }}</h2>
-<h3>{{ next_month }}</h3>
+<!-- <h3>{{ next_month }}</h3> -->
 <ul>
 {% else %}
 {% if this_month != next_month %}
 </ul>
-<h3>{{next_month}}</h3>
+<!-- <h3>{{next_month}}</h3> -->
 <ul>
 {% endif %}
 {% endif %}
