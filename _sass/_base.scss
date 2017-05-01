@@ -232,8 +232,9 @@ pre {
 .tag {
   display: inline;
   padding: .2em .6em .3em;
-  font-size: 60%;
-  font-weight: bold;
+  // font-size: 60%;
+  font-size: 80%;
+  // font-weight: bold;
   line-height: 1;
   color: $tag-default-fg;
   text-align: center;
