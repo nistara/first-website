@@ -16,20 +16,22 @@
         <a href="/tags.html">Tags</a>
         <span class="mastdiv">|</span>
         <a href="/archive.html">Archive</a>
-        <span class="mastdiv">|</span>
-        <a href="https://github.com/nistara">Github</a>
+        <!-- <a href="https://github.com/nistara">Github</a> -->
         
         {% for page in site.pages %}{% if page.layout == 'project' %}
-          <span class="mastdiv">|</span>
-          <a href="{{ page.url | prepend: site.baseurl }}">
-            <span style = "font-family: 'lablogIcons';">  &#xe60a; </span>
-            {% assign menutag = page.title | truncate: 10  %}
-            {% if page.menu.size !=  %}
-              {% assign menutag = page.menu %}
-            {% endif %}
-            {{ menutag }}
-          </a>
+        <span class="mastdiv">|</span>
+        <a href="{{ page.url | prepend: site.baseurl }}">
+          <span style = "font-family: 'lablogIcons';">  &#xe60a; </span>
+          {% assign menutag = page.title | truncate: 10  %}
+          {% if page.menu.size !=  %}
+          {% assign menutag = page.menu %}
+          {% endif %}
+          {{ menutag }}
+        </a>
         {% endif %}{% endfor %}
+
+        <span class="mastdiv">|</span>
+	<a href="https://github.com/nistara">Github</a>
         
 
     
