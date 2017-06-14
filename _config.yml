@@ -16,7 +16,8 @@ website : nistara.github.io
 
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: redcarpet
 syntax_highlighter: rouge
 
 kramdown:
