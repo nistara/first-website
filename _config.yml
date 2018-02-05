@@ -12,7 +12,7 @@ name :
 email :
 github_username: nistara
 twitter_username: 
-website : nistara.github.io
+# website : nistara.github.io
 
 
 # Build settings
@@ -27,7 +27,7 @@ kramdown:
 
 
 
-noindex:  # if true, google will ignore your pages!
+noindex:  true # if true, google will ignore your pages!
 
 defaults:   # overwrite with in YAML frontmatter, e.g. 'place: New York'
   -
